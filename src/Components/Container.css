@@ -1,0 +1,11 @@
+.Parent
+{
+    display: flex;
+    align-items: flex-start;
+    margin-top:50px;
+   
+}
+.child2
+{
+    width: 70%;
+}

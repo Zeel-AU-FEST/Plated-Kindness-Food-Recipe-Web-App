@@ -1,0 +1,48 @@
+.FoodDetails
+{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+     margin: 20px auto;
+     padding: 20px;
+     box-shadow: 0 4px 6px rgb(0,0,0,0.2);
+     border-radius: 10px;
+    color: #2F3E46;
+}
+.recipeCard
+{
+    margin-bottom: 40px;
+}
+.recipeName
+{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.recipeImage{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+.recipeDetails
+{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recipeInstructions
+{
+    padding: 10px;
+    border-radius: 5px;
+    color: #5c5861;
+}
+.recipeInstructions ol{
+    margin-left: 0px;
+
+}
+.recipeInstructions li{
+    margin: 10px 0px;
+}
