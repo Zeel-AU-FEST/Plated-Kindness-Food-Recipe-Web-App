@@ -5,7 +5,7 @@ export default function Searchbar({ FoodData, SetFoodData }) {
   const [query, setQuery] = useState("pizza");
 
   const url = "https://api.spoonacular.com/recipes/complexSearch";
-  const apiKey = "f8539dce55504c218f9379e3d5158c64";
+  const apiKey = "";
 
   async function fetchFood() {
     try {
